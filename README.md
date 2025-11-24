@@ -1,6 +1,6 @@
 # Folha Nova
 
-![Status](https://img.shields.io/badge/status-Finalizado%20porem%20recebendo%20melhorias-green)
+![Status](https://img.shields.io/badge/status-Recebendo%20melhorias-green)
 ![Projeto Faculdade](https://img.shields.io/badge/Projeto-Faculdade-blue)
 ![PHP](https://img.shields.io/badge/PHP-8.x-blue?logo=php)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-orange?logo=mysql)

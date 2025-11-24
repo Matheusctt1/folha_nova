@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+html {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url("../img/fundoLogin.jpg") no-repeat;
+  background-size: cover; 
+}
+
+.login-box {
+  background: #faf7f4;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  width: 100%;
+}
+
+.login-box h2 {
+  font-size: 22px;
+  color: #4b3b2c;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #4b3b2c;
+  padding-bottom: 10px;
+}
+
+.login-box label {
+  font-size: 14px;
+  color: #4b3b2c;
+  margin: 10px 0 5px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px 0px 10px 10px;
+  border: none;
+  border-radius: 25px;
+  background: #5a4433;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+.login-box input::placeholder {
+  color: #ddd;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 30px;
+  border: none;
+  border-radius: 25px;
+  margin-top: 20px;
+  background: #d49c72;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-box button:hover {
+  background: #c18457;
+}
+
+.cadastro-link {
+  margin-top: 15px;
+  font-size: 13px;
+  text-align: center;
+  color: #6a5c50;
+}
+.container-login{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  padding:16px
+}
+.login-box{
+  max-width:420px;
+  width:100%;
+  background:#fff;
+  padding:24px;
+  border-radius:8px;
+  box-shadow:0 8px 24px rgba(0,0,0,0.08)
+}
+.login-box h2{
+  margin-top:0
+}
+.erro{
+  background:#fee2e2;
+  color:#b91c1c;
+  padding:8px;
+  border-radius:6px;
+  margin-bottom:12px
+}
+.cadastro-link{
+  list-style:none;
+  padding:0;
+  margin-top:12px
+}
+.cadastro-link a{
+  color:#2563eb;
+  cursor:pointer;
+  text-decoration:underline
+
+}
+
+.formulario{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+
+    body {
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+    }
+
+    .container-login {
+        height: 100vh;                
+        display: flex;                 
+        justify-content: center;       
+        align-items: center;           
+        padding: 20px;                 
+    }
+
+    .login-box {
+        width: 100%;      
+        max-width: 380px;             
+        height: auto;                  
+        border-radius: 10px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        padding: 24px;
+    }
+}
+

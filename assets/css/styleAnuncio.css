@@ -1,0 +1,56 @@
+  .card {
+    background-color: #f6f1e8;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+
+  .card h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #5a3e2b;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #4b2c15;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  .form-group textarea {
+    resize: none;
+  }
+
+  button {
+    display: block;
+    width: 200px;
+    margin: 20px auto 0;
+    background-color: #b8732f;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  button:hover {
+    background-color: #915c26;
+  }

@@ -8,14 +8,14 @@ if (
     $host = "localhost";
     $user = "root";
     $pass = "";
-    $db   = "folhanova";
+    $db   = "XXXX";
 
 } else {
     // AMBIENTE DE PRODUÇÃO (InfinityFree)
-    $host = "sql302.infinityfree.com";
-    $user = "if0_40489043";
-    $pass = "090403250703Mj";
-    $db   = "if0_40489043_folhanova";
+    $host = "XXXX";
+    $user = "XXXX";
+    $pass = "XXXX";
+    $db   = "XXXX";
 }
 
 $conn = new mysqli($host, $user, $pass, $db);
@@ -26,3 +26,4 @@ if ($conn->connect_errno) {
 
 $conn->set_charset("utf8mb4");
 ?>
+

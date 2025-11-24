@@ -1,5 +1,9 @@
-
 # Folha Nova
+
+![Status](https://img.shields.io/badge/status-Finalizado%20porem%20recebendo%20melhorias-green)
+![Projeto Faculdade](https://img.shields.io/badge/Projeto-Faculdade-blue)
+![PHP](https://img.shields.io/badge/PHP-8.x-blue?logo=php)
+![MySQL](https://img.shields.io/badge/MySQL-Database-orange?logo=mysql)
 
 > Biblioteca digital simples — sistema de anúncios de livros (PHP + MySQL).  
 > Ponto de entrada: `index.php`.

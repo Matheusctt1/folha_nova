@@ -76,14 +76,3 @@ $conn->set_charset('utf8mb4');
 - `backend/api_anuncio.php` / `api_anuncios.php` — dados JSON utilizados pelo frontend.
 
 ---
-
-## Boas práticas
-- Evitar commitar credenciais reais.  
-- Validar uploads (MIME/extensão).  
-- Garantir prepared statements em todas as queries.  
-- Utilizar token CSRF nos formulários mais sensíveis.
-
----
-
-## Licença
-Inclua a licença desejada (ex.: MIT).
